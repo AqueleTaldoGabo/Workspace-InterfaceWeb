@@ -1,0 +1,39 @@
+#titulo{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: Lucida Handwriting, cursive;
+    font-size: 50px;
+    font-style: oblique;
+    color:olivedrab;
+
+}
+#link{
+    text-decoration: none;
+    font-style: italic;
+    color: darkgreen;
+}
+.titulos2{
+    text-indent: 15px;
+    font-size: 26px;
+    font-weight: 10000;
+    color:forestgreen;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.titulos3{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.textolista{
+    font-family: 'Courier New', Courier, monospace;
+}
+.textolista2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    color: greenyellow;
+}
+li{
+    font-size: 18px;
+}
