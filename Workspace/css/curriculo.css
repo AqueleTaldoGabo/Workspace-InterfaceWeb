@@ -11,7 +11,7 @@
 #link{
     text-decoration: none;
     font-style: italic;
-    color: darkgreen;
+    color: #657153;
 }
 .titulos2{
     text-indent: 15px;
@@ -31,9 +31,24 @@
 .textolista2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.imagemInfo{
+    float: left;
+    width: 5%;
+    margin-right:30px;
+}
 hr{
     color: greenyellow;
 }
 li{
     font-size: 18px;
+    color:#313715;
+}
+body{
+    background-image: url(../css/imagens/imagens/sapo_background.avif);
+    
+    background-size: 10%;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-blend-mode:lighten;
+    
 }
