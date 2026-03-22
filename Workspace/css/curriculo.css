@@ -33,7 +33,7 @@
 }
 .imagemInfo{
     float: left;
-    width: 5%;
+    width: 13%;
     margin-right:30px;
 }
 hr{
@@ -51,4 +51,60 @@ body{
     background-position: right bottom;
     background-blend-mode:lighten;
     
+}
+.cabecalho{
+    height: 170px;
+    width: 50%;
+    margin: auto;
+    background-size: cover;
+    background-position: right center;
+    border-radius: 30px;
+    background-color: #F5E6C8;
+    border-bottom: 2px solid #66BB6A;
+
+}
+
+.cabecalho nav ul{
+    margin: auto;
+    text-align: center;
+}
+.cabecalho nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 16px;
+}
+.cabecalho nav a{
+    background-color: rgb(102, 187, 106, .3);
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.lista{
+    list-style-position: inside;
+}
+section{
+    background-color: #E8F5E9;
+    width: 40%;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px 100px 20px;
+    
+}
+section h2{
+    border-bottom: 2px solid #66BB6A;
+    background-color: #F5E6C8;
+    padding: 10px 0px;
+    margin-top: auto;
+}
+section ul ul{
+    background-color: #F5E6C8;
+    padding: 10px 20px;
+    margin-left: 50px;
+    width: 50%;
+    border-radius: 10px;
 }
