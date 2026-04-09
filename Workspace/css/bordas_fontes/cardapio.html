@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            width: 80%;
+            margin: auto;
+            background-color: wheat;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        th{
+            background-color: darkkhaki;
+            border: 2px solid darkgoldenrod;
+            padding: 16px;
+        }
+        td{
+            text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabela de preços</caption>
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Item</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Alimento</td>
+                <td>Hamborgue</td>
+                <td>R$: 25,00</td>
+            </tr>
+            <tr>
+                <td>Alguma coisa saborosa</td>
+                <td>R$: 20,00</td>
+            </tr>
+            <tr>
+                <td>3 comdias</td>
+                <td>R$: 23,00</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Bebida</td>
+                <td>Água</td>
+                <td>R$: 5,00</td>
+            </tr>
+            <tr>
+                <td>Alguma coisa saborosa</td>
+                <td>R$: 7,00</td>
+            </tr>
+            <tr>
+                <td>3 bebias</td>
+                <td>R$: 3,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">Valores sujeitos a alteração.</td>
+        </tfoot>
+    </table>
+</body>
+</html>

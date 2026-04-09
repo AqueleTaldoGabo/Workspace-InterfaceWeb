@@ -6,11 +6,10 @@ html{
     text-decoration: underline;
     text-transform: capitalize;
     font-family: Lucida Handwriting, cursive;
-    font-size: 6em;
+    font-size: 50px;
     font-style: oblique;
     color:olivedrab;
-    margin: 0;
-    padding: 0.4em;
+
 }
 #link{
     text-decoration: none;
@@ -18,8 +17,8 @@ html{
     color: #657153;
 }
 .titulos2{
-    padding-left: 1.1em;
-    font-size: 3.08em;
+    text-indent: 15px;
+    font-size: 26px;
     font-weight: 10000;
     color:forestgreen;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,14 +36,14 @@ html{
 }
 .imagemInfo{
     float: left;
-    width: 4.4vw;
-    margin-right: 0.8em;
+    width: 13%;
+    margin-right:30px;
 }
 hr{
     color: greenyellow;
 }
 li{
-    font-size: 1.84em;
+    font-size: 18px;
     color:#313715;
 }
 body{
@@ -57,12 +56,12 @@ body{
     
 }
 .cabecalho{
-    height: 17vh;
-    width: 50vw;
+    height: 170px;
+    width: 50%;
     margin: auto;
     background-size: cover;
     background-position: right center;
-    border-radius: 3em;
+    border-radius: 30px;
     background-color: #F5E6C8;
     border-bottom: 2px solid #66BB6A;
 
@@ -75,26 +74,26 @@ body{
 .cabecalho nav li{
     display: inline-block;
     list-style-type: none;
-    margin-left: 1.6em;
+    margin-left: 16px;
 }
 .cabecalho nav a{
     background-color: rgb(102, 187, 106, .3);
-    border-radius: 1em;
-    padding: 1em;
+    border-radius: 10px;
+    padding: 10px;
     display: block;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.7em;
-    letter-spacing: 0.2em;
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 .lista{
     list-style-position: inside;
 }
 .flexbox{
-    height: 40vh;
-    
-    margin-bottom: 2em;
+    height: 400px;
+    border: 5px solid blue;
+    margin-bottom: 20px;
     display: flex;
 }
 .flex-container{
@@ -103,22 +102,22 @@ body{
 }
 .caixa{
     background-color: #E8F5E9;
-    width: 27vw;
-    border-radius: 0.8em;
-    padding: 1.6em;
-    margin: 1em 2em;
+    width: 40%;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px 100px 20px;
     
 }
 .caixa h2{
     border-bottom: 2px solid #66BB6A;
     background-color: #F5E6C8;
-    padding: 1em 0;
+    padding: 10px 0px;
     margin-top: auto;
 }
 .caixa ul ul{
     background-color: #F5E6C8;
-    padding: 1em 2em;
-    margin-left: 5em;
-    width: 10vw;
-    border-radius: 1em;
+    padding: 10px 20px;
+    margin-left: 50px;
+    width: 50%;
+    border-radius: 10px;
 }
