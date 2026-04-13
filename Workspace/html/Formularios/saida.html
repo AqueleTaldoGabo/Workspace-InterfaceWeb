@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormSaida</title>
+</head>
+<body>
+    <meter min="0" max="100" low="30" high="90" value="55"></meter>
+    <progress max="100" value="50"></progress>
+    <form oninput="result.value = a.value * b.value">
+        <input type="number" name="a" id="a">X
+        <input type="number" name="b" id="b"> =
+        <output name="result" for="a b"></output>
+    </form>
+</body>
+</html>
