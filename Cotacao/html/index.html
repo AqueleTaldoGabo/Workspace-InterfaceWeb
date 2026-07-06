@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotaccion</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Cotações oficiais</h1>
+        <div class="converter-box">
+            <input type="number" id="valorInput" placeholder="Valor (ex: 100)" min="0">
+            <div class="selectors">
+                <select id="moedaOrigem">
+                    <option value="BRL">BRL</option><option value="USD">USD</option>
+                    <option value="EUR">EUR</option><option value="BTC">BTC</option>
+                </select>
+                <select id="moedaDestino">
+                    <option value="USD">USD</option><option value="BRL">BRL</option>
+                    <option value="EUR">EUR</option><option value="BTC">BTC</option>
+                </select>
+            </div>
+            
+            <div id="resultadoDisplay" class="result">0.00</div>
+            <div class="trend-box">Variação (24h): <span id="trendLabel">--</span></div>
+
+            <div class="metrics-grid">
+                <div class="metric-card"><small>Máxima</small><span id="maxVal">-</span></div>
+                <div class="metric-card"><small>Mínima</small><span id="minVal">-</span></div>
+            </div>
+            
+            <div id="loading" class="dot-typing"><span></span><span></span><span></span></div>
+        </div>
+
+        <div class="period-selector">
+            <button onclick="mudarPeriodo(7)">7d</button>
+            <button onclick="mudarPeriodo(15)" class="active">15d</button>
+            <button onclick="mudarPeriodo(30)">30d</button>
+            <button id="btnMenu" onclick="toggleCustom()">...</button>
+        </div>
+
+        <div id="customPeriod" class="custom-period-box">
+            <input type="number" id="customInput" placeholder="Dias (ex: 60)">
+            <button onclick="aplicarCustom()">OK</button>
+        </div>
+        
+        <div class="chart-container"><canvas id="meuGrafico"></canvas></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
